@@ -1,0 +1,292 @@
+:root {
+    --color-primary: ;
+    --color-secondary: ;
+    --color-1: #26204eef;
+    --color-2: #f9a21fef;
+    --color-3: #e5027fef;
+    --color-4: #644775ef;
+    --color-white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d3d3d3;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #e7e7e7;
+    border: 1px solid var(--color-white);
+    border-radius: 20px;
+}
+
+.banner-container {
+    width: 100%;
+    height: 500px;
+    min-height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+    z-index: 0;
+
+    h1 {
+
+        font-size: 10rem;
+        font-family: "Shadows Into Light", cursive;
+        font-weight: 900;
+        font-style: normal;
+        color: var(--color-white);
+
+    }
+
+    img {
+        max-width: 50%;
+        mask-image: linear-gradient(#000 80%, transparent);
+    }
+}
+
+.b1.active {
+    background-image: linear-gradient(var(--color-1) 75%, transparent);
+    color: var(--color-white);
+}
+
+.b2.active {
+    background-image: linear-gradient(var(--color-3) 75%, transparent);
+}
+
+.b3.active {
+    background-image: linear-gradient(var(--color-2) 75%, transparent);
+}
+
+.b4.active {
+    background-image: linear-gradient(var(--color-4) 75%, transparent);
+}
+
+.banner.active {
+    opacity: 1;
+    z-index: 1;
+}
+
+
+/* Tabs */
+.tabs-content {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    width: 100%;
+
+    .tab-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px 10px;
+        width: 18%;
+        position: sticky;
+        top: 20px;
+
+        .tab {
+            border-radius: 10px;
+            padding: 10px 20px;
+            margin: 10px 10px;
+            border: none;
+            background-color: #d3d3d3;
+            color: #141414;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+            box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+        }
+
+        .tab:hover {
+            background-color: #808080;
+            color: var(--color-white);
+        }
+
+        .tab.active {
+            color: #e7e7e7 !important;
+        }
+
+        .t1.active {
+            background-color: var(--color-1);
+        }
+
+        .t2.active {
+            background-color: var(--color-3);
+        }
+
+        .t3.active {
+            background-color: var(--color-2);
+        }
+
+        .t4.active {
+            background-color: var(--color-4);
+        }
+    }
+
+    .content-container {
+        width: 80%;
+        text-align: center;
+        margin-top: 20px;
+        /* position: absolute; */
+        right: 0;
+
+        .content {
+            min-height: 300px;
+            border-radius: 20px;
+            margin-bottom: 3rem;
+            display: none;
+            padding: 20px 20px 100px !important;
+            font-size: 1.5rem;
+            background-color: #e8e8e8;
+            box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+        }
+
+        .content.active {
+            display: block;
+        }
+    }
+}
+
+/* --------------------------CARD----------------------------- */
+
+.content-cards.active {
+    display: grid !important;
+    grid-template-columns: 30% 30% 30%;
+    gap: 3.3%;
+
+    .card {
+        position: relative;
+        margin: 10px 3%;
+        margin-bottom: 50px !important;
+        width: 100%;
+        border-radius: 30px;
+        background: #e0e0e0;
+        box-shadow: 15px 15px 30px #bebebe,
+            -15px -15px 30px #ffffff;
+        border: none;
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .card-content {
+                h1 {
+                    font-weight: bold;
+                    font-size: 22px;
+                }
+
+                img {
+                    filter: drop-shadow(0 10px 10px #070707);
+                }
+
+                p {
+                    font-size: 16px;
+                    margin-bottom: 10px;
+                }
+            }
+
+        }
+
+        .card-button {
+            background: #e8e8e8;
+            border-radius: 30px;
+            border: 1px solid #e8e8e8;
+            box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+            color: #333333;
+            cursor: pointer;
+            font-size: 16px;
+            margin-bottom: -35px !important;
+            margin: 0 auto;
+            padding: 0.7em 1.7em;
+            text-decoration: none;
+            transition: all 0.3s;
+            width: 80%;
+        }
+
+        .card-button:hover {
+            border: 1px solid white;
+        }
+
+        .card-button:active {
+            box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
+        }
+    }
+}
+
+@media(max-width: 1500px) {
+    .tab-container {
+        width: 15% !important;
+    }
+}
+
+
+@media(max-width: 1200px) {
+    .banner h1 {
+        font-size: 7rem;
+    }
+
+    .content-cards.active {
+        grid-template-columns: 45% 45%;
+        gap: 7.5%;
+    }
+}
+
+@media(max-width: 992px) {
+    .banner h1 {
+        font-size: 5rem;
+    }
+}
+
+@media(max-width: 768px) {
+    .tab-container {
+        margin: 3px;
+
+        span {
+            display: none;
+        }
+    }
+
+    .banner-container {
+        height: 100%;
+    }
+
+    .banner h1 {
+        font-size: 2.5rem;
+    }
+
+    .content-cards.active {
+        grid-template-columns: 95%;
+        gap: 0%;
+    }
+}
+
+@media(max-width: 576px) {
+    .tab-container {
+        margin: 20px 0 !important;
+
+        .tab {
+            margin: 10px 0 !important;
+        }
+    }
+}

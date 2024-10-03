@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /Proyectos-web/proyectos/mineros-50/
+
+# Redirigir todas las solicitudes al punto de entrada de Angular
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /Proyectos-web/proyectos/mineros-50/index.html [L]

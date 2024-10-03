@@ -1,0 +1,148 @@
+{
+    "tabs": [
+        {
+            "id": 1,
+            "name": "Metaverso",
+            "projects": [
+                {
+                    "title": "Feria virtual ACMGen",
+                    "description": "Diseño, desarrollo y montaje en metaverso de la feria virtual ACMgen",
+                    "img": "Metaverso/M1.png",
+                    "url": "proyectos/feriavirtual-acmgen/"
+                },
+                {
+                    "title": "Metaexperience MD",
+                    "description": "Espacio virtual de Monodual como portafolio de proyectos en la industria minera",
+                    "img": "Metaverso/M2.png",
+                    "url": "proyectos/metaexperience-md/"
+                },
+                {
+                    "title": "Metahemco",
+                    "description": "Recorrido virtual de las instalaciones de una mina en Nicaragua",
+                    "img": "Metaverso/M3.png",
+                    "url": "proyectos/metahemco/"
+                },
+                {
+                    "title": "Perceptpc Showroom",
+                    "description": "Espacio virtual para la presentación y lanazamiento de un nuevo producto médico",
+                    "img": "Metaverso/M4.png",
+                    "url": "proyectos/perceptpcshowroom/"
+                },
+                {
+                    "title": "Spravato",
+                    "description": "Espacio virtual para la educación y promoción de un medicamento con apartado de juego tipo ¿Quién quiere ser millonario?",
+                    "img": "Metaverso/M5.png",
+                    "url": "proyectos/spravatocvt/"
+                },
+                {
+                    "title": "Webexperience-360",
+                    "description": "Espacio virtual demo para presentar algunas capacidades de montajes virtuales",
+                    "img": "Metaverso/M6.png",
+                    "url": "proyectos/webexperience-360/"
+                },
+                {
+                    "title": "La ciudadania en el Metaverso",
+                    "description": "Espacio virtual demo para presentar algunas capacidades de el uso del metaverso.",
+                    "img": "Metaverso/M7.png",
+                    "url": "proyectos/metaverso-defensoria/"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Eventos",
+            "projects": [
+                {
+                    "title": "Misión Oro",
+                    "description": "Landing page animada que destaca un proceso de comunicación interna",
+                    "img": "Eventos/E1.png",
+                    "url": "proyectos/misionoro/"
+                },
+                {
+                    "title": "Congreso Fecoer",
+                    "description": "Proyecto que busca comunicar enfermedades raras con la finalidad de generar un panorama equitativo y mejorar la calidad de vida de los pacientes.",
+                    "img": "Eventos/E2.png",
+                    "url": "proyectos/congreso-fecoer/"
+                },
+                {
+                    "title": "Himno Janssen",
+                    "description": "Proyecto que se encarga de tomar un video tomado por el usuario para ser utilizado en un himno de Janssen.",
+                    "img": "Eventos/E3.png",
+                    "url": "proyectos/Himnomac/"
+                },
+                {
+                    "title": "PazdelRio 75 años",
+                    "description": "Landing page celebrando los 75 años de PazdelRio",
+                    "img": "Eventos/E4.png",
+                    "url": "proyectos/paz-del-rio-75/"
+                },
+                {
+                    "title": "Simposio Internacional",
+                    "description": "Landing page que sirve para informar y tomar conciencia sobre el sindrome de Prader Willi.",
+                    "img": "Eventos/E5.png",
+                    "url": "proyectos/Simposio/public"
+                },
+                {
+                    "title": "Ehe@lth 2024",
+                    "description": "Landing page para el evento de Ehealth de la GHMC.",
+                    "img": "Eventos/E6.png",
+                    "url": "proyectos/ehealth/"
+                },
+                {
+                    "title": "Agencia de Renovación del Territorio",
+                    "description": "Espacio  para dar a conocer sobre la Agencia de Renovación del Territorio.",
+                    "img": "Eventos/E7.png",
+                    "url": "proyectos/art/"
+                },
+                {
+                    "title": "Los 50 años de mineros",
+                    "description": "Landing page celebrando los 50 años de mineros y su historia.",
+                    "img": "Eventos/E8.png",
+                    "url": "proyectos/mineros-50/"
+                },
+                {
+                    "title": "Los 30 años de brinsa",
+                    "description": "Landing page celebrando los 30 años de brinsa en colombia.",
+                    "img": "Eventos/E9.png",
+                    "url": "proyectos/brinsa-30/"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Juegos",
+            "projects": [
+                {
+                    "title": "Juego 1",
+                    "description": "Descripción del juego 1",
+                    "img": "",
+                    "url": ""
+                },
+                {
+                    "title": "Juego 2",
+                    "description": "Descripción del juego 2",
+                    "img": "",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Apps",
+            "projects": [
+                {
+                    "title": "App 1",
+                    "description": "Descripción de la app 1",
+                    "img": "",
+                    "url": ""
+                },
+                {
+                    "title": "App 2",
+                    "description": "Descripción de la app 2",
+                    "img": "",
+                    "url": ""
+                }
+            ]
+        }
+    ]
+}
