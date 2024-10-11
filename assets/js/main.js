@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 tab.projects.forEach(project => {
                     cards += `
-                    <div class="card mb-3">
+                    <div class="card mb-3 wow animate__animated animate__fadeIn" data-wow-delay="${project.time}">
                         <div class="card-body">
                             <div class="card-content">
                                 <h3 class="card-title">${project.title}</h3>
@@ -50,8 +50,10 @@ document.addEventListener("DOMContentLoaded", () => {
                                 <p class="card-text">${project.description}</p>
                             </div>
                         </div>
-                        <a class="card-button fw-bold" href="${project.url}">Ver proyecto</a>
+ 
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#Modal${project.id}" class="card-button fw-bold">Ver proyecto</button>
                     </div>
+
                     `;
                 });
 
