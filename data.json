@@ -6,22 +6,45 @@
             "projects": [
                 {   
                     "id": 1,
+                    "nModal":"meta" ,
                     "title": "Feria virtual ACMGen",
                     "description": "Diseño, desarrollo y montaje en metaverso de la feria virtual ACMgen",
                     "img": "Metaverso/M1.png",
                     "url": "proyectos/feriavirtual-acmgen/",
-                    "time": ".3s"
+                    "time": ".3s",
+                    "modal": {
+                        "icon1": "fa-angular", 
+                        "icon2": "fa-wordpress", 
+                        "icon3": "fa-fire" 
+                    },
+                    "modal-title": {
+                        "title1": "Angular",
+                        "title2": "WordPress",
+                        "title3": "Firebase"
+                    }
                 },
                 {
                     "id": 2,
+                    "nModal":"meta" ,
                     "title": "Metaexperience MD",
                     "description": "Espacio virtual de Monodual como portafolio de proyectos en la industria minera",
                     "img": "Metaverso/M2.png",
                     "url": "proyectos/metaexperience-md/",
-                    "time": ".5s"
+                    "time": ".5s",
+                    "modal": {
+                        "icon1": "fa-angular", 
+                        "icon2": "fa-wordpress", 
+                        "icon3": "fa-fire" 
+                    },
+                    "modal-title": {
+                        "title1": "Angular",
+                        "title2": "WordPress",
+                        "title3": "Firebase"
+                    }
                 },
                 {
                     "id": 3,
+                    "nModal":"meta" ,
                     "title": "Metahemco",
                     "description": "Recorrido virtual de las instalaciones de una mina en Nicaragua",
                     "img": "Metaverso/M3.png",
@@ -30,6 +53,7 @@
                 },
                 {
                     "id": 4,
+                    "nModal":"meta" ,
                     "title": "Perceptpc Showroom",
                     "description": "Espacio virtual para la presentación y lanazamiento de un nuevo producto médico",
                     "img": "Metaverso/M4.png",
@@ -38,6 +62,7 @@
                 },
                 {
                     "id": 5,
+                    "nModal":"meta" ,
                     "title": "Spravato",
                     "description": "Espacio virtual para la educación y promoción de un medicamento con apartado de juego tipo ¿Quién quiere ser millonario?",
                     "img": "Metaverso/M5.png",
@@ -46,6 +71,7 @@
                 },
                 {
                     "id": 6,
+                    "nModal":"meta" ,
                     "title": "Webexperience-360",
                     "description": "Espacio virtual demo para presentar algunas capacidades de montajes virtuales",
                     "img": "Metaverso/M6.png",
@@ -54,6 +80,7 @@
                 },
                 {
                     "id": 7,
+                    "nModal":"meta" ,
                     "title": "La ciudadania en el Metaverso",
                     "description": "Espacio virtual demo para presentar algunas capacidades de el uso del metaverso.",
                     "img": "Metaverso/M7.png",
@@ -67,6 +94,8 @@
             "name": "Eventos",
             "projects": [
                 {
+                    "id": 1, 
+                    "nModal": "eventos",
                     "title": "Misión Oro",
                     "description": "Landing page animada que destaca un proceso de comunicación interna",
                     "img": "Eventos/E1.png",
@@ -75,6 +104,8 @@
 
                 },
                 {
+                    "id": 2, 
+                    "nModal": "eventos",
                     "title": "Congreso Fecoer",
                     "description": "Proyecto que busca comunicar enfermedades raras con la finalidad de generar un panorama equitativo y mejorar la calidad de vida de los pacientes.",
                     "img": "Eventos/E2.png",
@@ -83,6 +114,8 @@
 
                 },
                 {
+                    "id": 3, 
+                    "nModal": "eventos",
                     "title": "Himno Janssen",
                     "description": "Proyecto que se encarga de tomar un video tomado por el usuario para ser utilizado en un himno de Janssen.",
                     "img": "Eventos/E3.png",
@@ -91,6 +124,8 @@
 
                 },
                 {
+                    "id": 4, 
+                    "nModal": "eventos",
                     "title": "PazdelRio 75 años",
                     "description": "Landing page celebrando los 75 años de PazdelRio",
                     "img": "Eventos/E4.png",
@@ -99,6 +134,8 @@
 
                 },
                 {
+                    "id": 5, 
+                    "nModal": "eventos",
                     "title": "Simposio Internacional",
                     "description": "Landing page que sirve para informar y tomar conciencia sobre el sindrome de Prader Willi.",
                     "img": "Eventos/E5.png",
@@ -107,6 +144,8 @@
 
                 },
                 {
+                    "id": 6, 
+                    "nModal": "eventos",
                     "title": "Ehe@lth 2024",
                     "description": "Landing page para el evento de Ehealth de la GHMC.",
                     "img": "Eventos/E6.png",
@@ -115,6 +154,8 @@
 
                 },
                 {
+                    "id": 7, 
+                    "nModal": "eventos",
                     "title": "Agencia de Renovación del Territorio",
                     "description": "Espacio  para dar a conocer sobre la Agencia de Renovación del Territorio.",
                     "img": "Eventos/E7.png",
@@ -123,6 +164,8 @@
 
                 },
                 {
+                    "id": 8, 
+                    "nModal": "eventos",
                     "title": "Los 50 años de mineros",
                     "description": "Landing page celebrando los 50 años de mineros y su historia.",
                     "img": "Eventos/E8.png",
@@ -131,6 +174,8 @@
 
                 },
                 {
+                    "id": 9, 
+                    "nModal": "eventos",
                     "title": "Los 30 años de brinsa",
                     "description": "Landing page celebrando los 30 años de brinsa en colombia.",
                     "img": "Eventos/E9.png",
@@ -145,18 +190,24 @@
             "name": "Juegos",
             "projects": [
                 {
+                    "id": 1,
+                    "nModal": "juegos",
                     "title": "Innovación Aguadulce",
                     "description": "Landing animada y apartado de videojuegos con registro de usuarios para evento de innovación",
                     "img": "Juegos/J1.png",
                     "url": "proyectos/innovacion-aguadulce"
                 },
                 {
+                    "id": 1,
+                    "nModal": "juegos",
                     "title": "Phygital Day",
                     "description": "4 juegos online dedicados al aprendizaje de herramientas internas Janssen",
                     "img": "Juegos/J2.png",
                     "url": "proyectos/phygital-day/"
                 },
                 {
+                    "id": 1,
+                    "nModal": "juegos",
                     "title": "Patient solution",
                     "description": "2 juegos online dedicados al aprendizaje de la herramienta Patient Solution de  Janssen",
                     "img": "Juegos/J3.png",
@@ -169,18 +220,24 @@
             "name": "Apps",
             "projects": [
                 {
+                    "id": 1,
+                    "nModal": "app",
                     "title": "ACM",
                     "description": "La app ofrece información del evento: agenda, conferencistas, mapa, patrocinadores, traducción y sitios clave.",
                     "img": "apps/A1.png",
                     "url": "proyectos/innovacion-aguadulce"
                 },
                 {
+                    "id": 1,
+                    "nModal": "app",
                     "title": "ARPEL",
                     "description": "La app ofrece información del evento: agenda, conferencistas, mapa, patrocinadores, traducción y sitios clave.",
                     "img": "apps/A2.png",
                     "url": "proyectos/phygital-day/"
                 },
                 {
+                    "id": 1,
+                    "nModal": "app",
                     "title": "ANDEG",
                     "description": "La app ofrece información del evento: agenda, conferencistas, mapa, patrocinadores, traducción y sitios clave en Barranquilla. Organizado por ANDEG.",
                     "img": "apps/A3.png",
