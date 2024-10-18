@@ -300,23 +300,62 @@
                     "title": "Innovación Aguadulce",
                     "description": "Landing animada y apartado de videojuegos con registro de usuarios para evento de innovación",
                     "img": "Juegos/J1.png",
-                    "url": "proyectos/innovacion-aguadulce"
+                    "url": "proyectos/innovacion-aguadulce",
+                    "time": ".3s",
+                    "modal": {
+                        "icon1": "fa-brands fa-html5",
+                        "icon2": "fa-brands fa-css3-alt",
+                        "icon3": "fa-brands fa-square-js",
+                        "icon4": "fa-brands fa-php"
+                    },
+                    "modal-title": {
+                        "title1": "HTML",
+                        "title2": "CSS",
+                        "title3": "JS",
+                        "title4": "JS"
+                    }
                 },
                 {
-                    "id": 1,
+                    "id": 2,
                     "nModal": "juegos",
                     "title": "Phygital Day",
                     "description": "4 juegos online dedicados al aprendizaje de herramientas internas Janssen",
                     "img": "Juegos/J2.png",
-                    "url": "proyectos/phygital-day/"
+                    "url": "proyectos/phygital-day/",
+                    "time": ".5s",
+                    "modal": {
+                        "icon1": "fa-brands fa-html5",
+                        "icon2": "fa-brands fa-css3-alt",
+                        "icon3": "fa-brands fa-square-js",
+                        "icon4": "fa-brands fa-php"
+                    },
+                    "modal-title": {
+                        "title1": "HTML",
+                        "title2": "CSS",
+                        "title3": "JS",
+                        "title4": "JS"
+                    }
                 },
                 {
-                    "id": 1,
+                    "id": 3,
                     "nModal": "juegos",
                     "title": "Patient solution",
                     "description": "2 juegos online dedicados al aprendizaje de la herramienta Patient Solution de  Janssen",
                     "img": "Juegos/J3.png",
-                    "url": "proyectos/patient-solution/"
+                    "url": "proyectos/patient-solution/",
+                    "time": ".7s",
+                    "modal": {
+                        "icon1": "fa-brands fa-html5",
+                        "icon2": "fa-brands fa-css3-alt",
+                        "icon3": "fa-brands fa-square-js",
+                        "icon4": "fa-brands fa-php"
+                    },
+                    "modal-title": {
+                        "title1": "HTML",
+                        "title2": "CSS",
+                        "title3": "JS",
+                        "title4": "JS"
+                    }
                 }
             ]
         },
