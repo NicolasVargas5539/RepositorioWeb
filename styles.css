@@ -388,6 +388,9 @@ body::-webkit-scrollbar-thumb {
         grid-template-columns: 95%;
         gap: 0%;
     }
+    .btn-contacto{
+        padding: 5px 10px !important;
+    }
 }
 
 @media(max-width: 576px) {
