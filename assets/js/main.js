@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             tecnologiasHTML += `
                                 <div class="tecnologias-desc mx-2">
                                     <h6>${titulo}</h6>
-                                    <i class="fa-brands ${icono} fa-2x"></i>
+                                    <i class="${icono} fa-2x"></i>
                                 </div>
                             `;
                         });
@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                                     <p>${project.description}</p>
                                                     <br>
                                                     <div class="tecnologias text-center">
-                                                        <h2>Tecnologías</h2>
+                                                        <h2>${project.nModal === 'app' ? 'Plataformas' : 'Tecnologías'}</h2>
                                                         <div class="tecnologias-icons d-flex justify-content-center">
                                                             ${tecnologiasHTML} <!-- Aquí se inserta el HTML generado -->
                                                         </div>

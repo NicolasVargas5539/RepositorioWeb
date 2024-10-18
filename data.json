@@ -13,14 +13,10 @@
                     "url": "proyectos/feriavirtual-acmgen/",
                     "time": ".3s",
                     "modal": {
-                        "icon1": "fa-angular", 
-                        "icon2": "fa-wordpress", 
-                        "icon3": "fa-fire" 
+                        "icon1": "fa-solid fa-vr-cardboard"
                     },
                     "modal-title": {
-                        "title1": "Angular",
-                        "title2": "WordPress",
-                        "title3": "Firebase"
+                        "title1": "3D Vista"
                     }
                 },
                 {
@@ -32,14 +28,10 @@
                     "url": "proyectos/metaexperience-md/",
                     "time": ".5s",
                     "modal": {
-                        "icon1": "fa-angular", 
-                        "icon2": "fa-wordpress", 
-                        "icon3": "fa-fire" 
+                        "icon1": "fa-solid fa-vr-cardboard"
                     },
                     "modal-title": {
-                        "title1": "Angular",
-                        "title2": "WordPress",
-                        "title3": "Firebase"
+                        "title1": "3D Vista"
                     }
                 },
                 {
@@ -49,7 +41,13 @@
                     "description": "Recorrido virtual de las instalaciones de una mina en Nicaragua",
                     "img": "Metaverso/M3.png",
                     "url": "proyectos/metahemco/",
-                    "time": ".7s"
+                    "time": ".7s",
+                    "modal": {
+                        "icon1": "fa-solid fa-vr-cardboard"
+                    },
+                    "modal-title": {
+                        "title1": "3D Vista"
+                    }
                 },
                 {
                     "id": 4,
@@ -58,7 +56,13 @@
                     "description": "Espacio virtual para la presentación y lanazamiento de un nuevo producto médico",
                     "img": "Metaverso/M4.png",
                     "url": "proyectos/perceptpcshowroom/",
-                    "time": ".8s"
+                    "time": ".8s",
+                    "modal": {
+                        "icon1": "fa-solid fa-vr-cardboard"
+                    },
+                    "modal-title": {
+                        "title1": "3D Vista"
+                    }
                 },
                 {
                     "id": 5,
@@ -67,7 +71,13 @@
                     "description": "Espacio virtual para la educación y promoción de un medicamento con apartado de juego tipo ¿Quién quiere ser millonario?",
                     "img": "Metaverso/M5.png",
                     "url": "proyectos/spravatocvt/",
-                    "time": ".9s"
+                    "time": ".9s",
+                    "modal": {
+                        "icon1": "fa-solid fa-vr-cardboard"
+                    },
+                    "modal-title": {
+                        "title1": "3D Vista"
+                    }
                 },
                 {
                     "id": 6,
@@ -76,7 +86,13 @@
                     "description": "Espacio virtual demo para presentar algunas capacidades de montajes virtuales",
                     "img": "Metaverso/M6.png",
                     "url": "proyectos/webexperience-360/",
-                    "time": "1s"
+                    "time": "1s",
+                    "modal": {
+                        "icon1": "fa-solid fa-vr-cardboard"
+                    },
+                    "modal-title": {
+                        "title1": "3D Vista"
+                    }
                 },
                 {
                     "id": 7,
@@ -85,7 +101,13 @@
                     "description": "Espacio virtual demo para presentar algunas capacidades de el uso del metaverso.",
                     "img": "Metaverso/M7.png",
                     "url": "proyectos/metaverso-defensoria/",
-                    "time": "1s"
+                    "time": "1s",
+                    "modal": {
+                        "icon1": "fa-brands fa-wordpress"
+                    },
+                    "modal-title": {
+                        "title1": "WordPress"
+                    }
                 }
             ]
         },
@@ -100,7 +122,13 @@
                     "description": "Landing page animada que destaca un proceso de comunicación interna",
                     "img": "Eventos/E1.png",
                     "url": "proyectos/misionoro/",
-                    "time": ".3s"
+                    "time": ".3s",
+                    "modal": {
+                        "icon1": "fa-brands fa-wordpress"
+                    },
+                    "modal-title": {
+                        "title1": "WordPress"
+                    }
 
                 },
                 {
@@ -110,7 +138,13 @@
                     "description": "Proyecto que busca comunicar enfermedades raras con la finalidad de generar un panorama equitativo y mejorar la calidad de vida de los pacientes.",
                     "img": "Eventos/E2.png",
                     "url": "proyectos/congreso-fecoer/",
-                    "time": ".5s"
+                    "time": ".5s",
+                    "modal": {
+                        "icon1": "fa-brands fa-wordpress"
+                    },
+                    "modal-title": {
+                        "title1": "WordPress"
+                    }
 
                 },
                 {
@@ -120,7 +154,20 @@
                     "description": "Proyecto que se encarga de tomar un video tomado por el usuario para ser utilizado en un himno de Janssen.",
                     "img": "Eventos/E3.png",
                     "url": "proyectos/Himnomac/",
-                    "time": ".7s"
+                    "time": ".7s",
+                    "modal": {
+                        "icon1": "fa-brands fa-html5",
+                        "icon2": "fa-brands fa-css3-alt",
+                        "icon3": "fa-brands fa-square-js",
+                        "icon4": "fa-solid fa-video"
+
+                    },
+                    "modal-title": {
+                        "title1": "HTML",
+                        "title2": "CSS",
+                        "title3": "JS",
+                        "title4": "CameraTag"
+                    }
 
                 },
                 {
@@ -130,7 +177,18 @@
                     "description": "Landing page celebrando los 75 años de PazdelRio",
                     "img": "Eventos/E4.png",
                     "url": "proyectos/paz-del-rio-75/",
-                    "time": ".8s"
+                    "time": ".8s",
+                    "modal": {
+                        "icon1": "fa-brands fa-html5",
+                        "icon2": "fa-brands fa-css3-alt",
+                        "icon3": "fa-brands fa-square-js"
+
+                    },
+                    "modal-title": {
+                        "title1": "HTML",
+                        "title2": "CSS",
+                        "title3": "JS"
+                    }
 
                 },
                 {
@@ -140,7 +198,20 @@
                     "description": "Landing page que sirve para informar y tomar conciencia sobre el sindrome de Prader Willi.",
                     "img": "Eventos/E5.png",
                     "url": "proyectos/Simposio/public",
-                    "time": ".9s"
+                    "time": ".9s",
+                    "modal": {
+                        "icon1": "fa-brands fa-laravel",
+                        "icon2": "fa-brands fa-html5",
+                        "icon3": "fa-brands fa-css3-alt",
+                        "icon4": "fa-brands fa-square-js"
+
+                    },
+                    "modal-title": {
+                        "title1": "Laravel",
+                        "title2": "HTML",
+                        "title3": "CSS",
+                        "title4": "JS"
+                    }
 
                 },
                 {
@@ -150,7 +221,13 @@
                     "description": "Landing page para el evento de Ehealth de la GHMC.",
                     "img": "Eventos/E6.png",
                     "url": "proyectos/ehealth/",
-                    "time": "1s"
+                    "time": "1s",
+                    "modal": {
+                        "icon1": "fa-brands fa-wordpress"
+                    },
+                    "modal-title": {
+                        "title1": "WordPress"
+                    }
 
                 },
                 {
@@ -160,7 +237,13 @@
                     "description": "Espacio  para dar a conocer sobre la Agencia de Renovación del Territorio.",
                     "img": "Eventos/E7.png",
                     "url": "proyectos/art/",
-                    "time": "1s"
+                    "time": "1s",
+                    "modal": {
+                        "icon1": "fa-brands fa-wordpress"
+                    },
+                    "modal-title": {
+                        "title1": "WordPress"
+                    }
 
                 },
                 {
@@ -170,7 +253,18 @@
                     "description": "Landing page celebrando los 50 años de mineros y su historia.",
                     "img": "Eventos/E8.png",
                     "url": "proyectos/mineros-50/",
-                    "time": "1s"
+                    "time": "1s",
+                    "modal": {
+                        "icon1": "fa-brands fa-angular",
+                        "icon2": "fa-brands fa-html5",
+                        "icon3": "fa-brands fa-css3-alt"
+
+                    },
+                    "modal-title": {
+                        "title1": "Angular",
+                        "title2": "HTML",
+                        "title3": "CSS"
+                    }
 
                 },
                 {
@@ -180,7 +274,18 @@
                     "description": "Landing page celebrando los 30 años de brinsa en colombia.",
                     "img": "Eventos/E9.png",
                     "url": "proyectos/brinsa-30/",
-                    "time": "1s"
+                    "time": "1s",
+                    "modal": {
+                        "icon1": "fa-brands fa-angular",
+                        "icon2": "fa-brands fa-html5",
+                        "icon3": "fa-brands fa-css3-alt"
+
+                    },
+                    "modal-title": {
+                        "title1": "Angular",
+                        "title2": "HTML",
+                        "title3": "CSS"
+                    }
 
                 }
             ]
@@ -225,7 +330,16 @@
                     "title": "ACM",
                     "description": "La app ofrece información del evento: agenda, conferencistas, mapa, patrocinadores, traducción y sitios clave.",
                     "img": "apps/A1.png",
-                    "url": "proyectos/innovacion-aguadulce"
+                    "url": "proyectos/innovacion-aguadulce",
+                    "time": ".3s",
+                    "modal": {
+                        "icon1": "fa-brands fa-apple",
+                        "icon2": "fa-brands fa-android"
+                    },
+                    "modal-title": {
+                        "title1": "Ios",
+                        "title2": "Android"
+                    }
                 },
                 {
                     "id": 1,
@@ -233,7 +347,16 @@
                     "title": "ARPEL",
                     "description": "La app ofrece información del evento: agenda, conferencistas, mapa, patrocinadores, traducción y sitios clave.",
                     "img": "apps/A2.png",
-                    "url": "proyectos/phygital-day/"
+                    "url": "proyectos/phygital-day/",
+                    "time": ".5s",
+                    "modal": {
+                        "icon1": "fa-brands fa-apple",
+                        "icon2": "fa-brands fa-android"
+                    },
+                    "modal-title": {
+                        "title1": "Ios",
+                        "title2": "Android"
+                    }
                 },
                 {
                     "id": 1,
@@ -241,7 +364,16 @@
                     "title": "ANDEG",
                     "description": "La app ofrece información del evento: agenda, conferencistas, mapa, patrocinadores, traducción y sitios clave en Barranquilla. Organizado por ANDEG.",
                     "img": "apps/A3.png",
-                    "url": "proyectos/patient-solution/"
+                    "url": "proyectos/patient-solution/",
+                    "time": ".7s",
+                    "modal": {
+                        "icon1": "fa-brands fa-apple",
+                        "icon2": "fa-brands fa-android"
+                    },
+                    "modal-title": {
+                        "title1": "Ios",
+                        "title2": "Android"
+                    }
                 }
             ]
         }
