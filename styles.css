@@ -4,7 +4,7 @@
     --color-1: #26204eef;
     --color-2: #f9a21fef;
     --color-3: #e5027fef;
-    --color-4: #644775ef;
+    --color-4: #6c4e7e;
     --color-white: #fff;
 }
 
@@ -50,7 +50,6 @@ body::-webkit-scrollbar-thumb {
     z-index: 0;
 
     .btn-contacto {
-        background-image: linear-gradient(to right, #FF512F 0%, #DD2476 51%, #FF512F 100%);
         background-size: 200% auto;
         border-radius: 10px;
         box-shadow: 0 0 20px #2020208e;
@@ -71,7 +70,20 @@ body::-webkit-scrollbar-thumb {
         background-position: right center;
         color: #fff;
         text-decoration: none;
-        box-shadow: 0 10px 20px #cacaca;
+        box-shadow: 0 10px 20px #b4b4b49f;
+    }
+
+    .btn-cto-1{
+        background-image: linear-gradient(to right, var(--color-2) 0%, var(--color-3) 51%, var(--color-2) 100%);
+    }
+    .btn-cto-2{
+        background-image: linear-gradient(to right, var(--color-2) 0%, var(--color-4) 61%, var(--color-2) 100%);
+    }
+    .btn-cto-3{
+        background-image: linear-gradient(to right, var(--color-3) 0%, var(--color-4) 51%, var(--color-3) 100%);
+    }
+    .btn-cto-4{
+        background-image: linear-gradient(to right, var(--color-3) 0%, var(--color-2) 51%, var(--color-3) 100%);
     }
 
     h1 {
@@ -153,19 +165,19 @@ body::-webkit-scrollbar-thumb {
             color: #e7e7e7 !important;
         }
 
-        .t1.active {
+        .t1.active, .t1:hover {
             background-color: var(--color-1);
         }
 
-        .t2.active {
+        .t2.active, .t2:hover {
             background-color: var(--color-3);
         }
 
-        .t3.active {
+        .t3.active, .t3:hover {
             background-color: var(--color-2);
         }
 
-        .t4.active {
+        .t4.active, .t4:hover {
             background-color: var(--color-4);
         }
     }
